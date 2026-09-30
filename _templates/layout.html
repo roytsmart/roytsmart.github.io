@@ -1,0 +1,10 @@
+{%- extends "!layout.html" %}
+
+{#- The landing page heading is the site title, so don't repeat it in the tab. #}
+{%- block htmltitle %}
+  {%- if pagename == root_doc %}
+    <title>{{ docstitle|striptags|e }}</title>
+  {%- else %}
+    {{ super() }}
+  {%- endif %}
+{%- endblock %}

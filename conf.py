@@ -2,7 +2,9 @@
 
 import pybtex.plugin
 import pybtex.style.formatting.unsrt
+import pybtex.style.names.plain
 import pybtex.style.sorting
+import pybtex.style.template
 
 # -- Project information -----------------------------------------------------
 
@@ -19,6 +21,8 @@ extensions = [
     "sphinxcontrib.bibtex",
     "sphinxext.opengraph",
 ]
+
+templates_path = ["_templates"]
 
 exclude_patterns = [
     "_build",
@@ -48,6 +52,10 @@ intersphinx_mapping = {
         None,
     ),
     "esis": ("https://esis-mission.github.io/esis/", None),
+    "ctis": ("https://ctis.readthedocs.io/en/stable/", None),
+    "peaklets": ("https://peaklets.readthedocs.io/en/stable/", None),
+    "furst": ("https://furst-optics.readthedocs.io/en/stable/", None),
+    "sdo": ("https://sdo.readthedocs.io/en/stable/", None),
 }
 
 # -- Publications ------------------------------------------------------------
@@ -63,16 +71,41 @@ class _SortingNewestFirst(pybtex.style.sorting.BaseSortingStyle):
         return sorted(entries, key=self.sorting_key, reverse=True)
 
 
-class _StylePublications(pybtex.style.formatting.unsrt.Style):
-    """The ``unsrt`` style, sorted with the newest publications first."""
+class _NamesBoldSelf(pybtex.style.names.plain.NameStyle):
+    """The ``plain`` name style, with my own name in bold."""
 
+    def format(self, person, abbr=False):
+        name = super().format(person, abbr)
+        if person.last_names == ["Smart"] and person.first_names[0].startswith("R"):
+            name = pybtex.style.template.tag("strong")[name]
+        return name
+
+
+class _StylePublications(pybtex.style.formatting.unsrt.Style):
+    """
+    The ``unsrt`` style, sorted with the newest publications first, and
+    keeping titles as published instead of converting them to sentence case.
+    """
+
+    default_name_style = "bold_self"
     default_sorting_style = "newest_first"
+
+    def format_title(self, e, which_field, as_sentence=True):
+        title = pybtex.style.template.field(which_field)
+        if as_sentence:
+            return pybtex.style.template.sentence[title]
+        return title
 
 
 pybtex.plugin.register_plugin(
     "pybtex.style.sorting",
     "newest_first",
     _SortingNewestFirst,
+)
+pybtex.plugin.register_plugin(
+    "pybtex.style.names",
+    "bold_self",
+    _NamesBoldSelf,
 )
 pybtex.plugin.register_plugin(
     "pybtex.style.formatting",
@@ -112,7 +145,7 @@ html_theme_options = {
         },
         {
             "name": "NASA ADS",
-            "url": "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-9997-5515&sort=date%20desc",
+            "url": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Smart%2C%20R%22%20author%3A%22Kankelborg%22&sort=date%20desc",
             "icon": "fa-solid fa-book-open",
         },
     ],

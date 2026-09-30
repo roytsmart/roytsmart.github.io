@@ -1,10 +1,17 @@
 :html_theme.sidebar_secondary.remove:
+:og:description: PhD candidate in physics at Montana State University, developing extreme ultraviolet spectrographs that measure plasma flows in the solar atmosphere.
 
 Roy T. Smart
 ============
 
-I'm a PhD candidate at Montana State University, advised by Charles Kankelborg.
-I study the solar transition region using EUV snapshot imaging spectroscopy.
+I'm a PhD candidate in physics at Montana State University, advised by
+Charles Kankelborg.
+My research focuses on developing extreme ultraviolet snapshot imaging
+spectrographs for measuring the flow of plasma in the solar atmosphere.
+I was awarded a NASA Earth and Space Science Fellowship for my work on using
+machine learning to interpret observations from these spectrographs.
+Along the way I write open-source Python packages for modeling optical systems
+and analyzing solar data.
 
 .. grid:: 1 2 2 3
     :gutter: 3

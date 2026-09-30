@@ -1,27 +1,132 @@
 Software
 ========
 
-`named_arrays`
-    Numpy arrays with labeled axes, similar to xarray but with support for
-    uncertainties.
+I write open-source Python packages for modeling optical systems and analyzing
+solar data.
+Most of them live in the `sun-data <https://github.com/sun-data>`__
+organization on GitHub and build on each other: `named_arrays` is the
+foundation, and `optika` models the optics of instruments like ESIS and FURST.
 
-`optika`
-    A Python library for simulating optical systems, similar to Zemax.
+Foundations
+-----------
 
-`regridding`
-    Numba-accelerated interpolation routines.
+.. grid:: 1 1 2 2
+    :gutter: 3
 
-`colorsynth`
-    A Python library for creating false-color images from arrays of spectral
-    radiance.
+    .. grid-item-card:: `named_arrays`
 
-`ndfilters`
-    Similar to the filters in `scipy.ndimage` but accelerated using Numba.
+        Numpy arrays with labeled axes, similar to xarray but with support for
+        uncertainties.
 
-`msfc_ccd`
-    A Python library for characterizing and using the CCD cameras developed by
-    Marshall Space Flight Center.
+        +++
+        `GitHub <https://github.com/sun-data/named-arrays>`__ |
+        `PyPI <https://pypi.org/project/named-arrays/>`__
 
-`esis`
-    A Python library for modeling and interpreting data from the EUV Snapshot
-    Imaging Spectrograph (ESIS).
+    .. grid-item-card:: `regridding`
+
+        Numba-accelerated interpolation routines.
+
+        +++
+        `GitHub <https://github.com/sun-data/regridding>`__ |
+        `PyPI <https://pypi.org/project/regridding/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23069898>`__
+
+    .. grid-item-card:: `ndfilters`
+
+        Similar to the filters in `scipy.ndimage` but accelerated using Numba.
+
+        +++
+        `GitHub <https://github.com/sun-data/ndfilters>`__ |
+        `PyPI <https://pypi.org/project/ndfilters/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23070078>`__
+
+    .. grid-item-card:: `colorsynth`
+
+        Creates false-color images from arrays of spectral radiance.
+
+        +++
+        `GitHub <https://github.com/sun-data/colorsynth>`__ |
+        `PyPI <https://pypi.org/project/colorsynth/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23066030>`__
+
+Optics and instruments
+----------------------
+
+.. grid:: 1 1 2 2
+    :gutter: 3
+
+    .. grid-item-card:: `optika`
+
+        Simulates optical systems, similar to Zemax.
+
+        +++
+        `GitHub <https://github.com/sun-data/optika>`__ |
+        `PyPI <https://pypi.org/project/optika/>`__
+
+    .. grid-item-card:: `ctis`
+
+        Inverts images captured by computed tomography imaging spectrographs.
+
+        +++
+        `GitHub <https://github.com/sun-data/ctis>`__ |
+        `PyPI <https://pypi.org/project/ctis/>`__
+
+    .. grid-item-card:: `esis`
+
+        Models the :doc:`ESIS <research/esis>` optical system and interprets
+        its flight data.
+
+        +++
+        `GitHub <https://github.com/esis-mission/esis>`__ |
+        `PyPI <https://pypi.org/project/euv-snapshot-imaging-spectrograph/>`__
+
+    .. grid-item-card:: `furst`
+
+        Models the :doc:`FURST <research/furst>` optical system as designed and
+        as built.
+
+        +++
+        `GitHub <https://github.com/Kankelborg-Group/furst-optics>`__ |
+        `PyPI <https://pypi.org/project/furst-optics/>`__
+
+    .. grid-item-card:: `msfc_ccd`
+
+        Characterizes and uses the CCD cameras developed by Marshall Space
+        Flight Center.
+
+        +++
+        `GitHub <https://github.com/sun-data/msfc-ccd>`__ |
+        `PyPI <https://pypi.org/project/msfc-ccd/>`__
+
+Solar data
+----------
+
+.. grid:: 1 1 2 2
+    :gutter: 3
+
+    .. grid-item-card:: `iris`
+
+        Analyzes solar observations from the Interface Region Imaging
+        Spectrograph (IRIS).
+
+        +++
+        `GitHub <https://github.com/sun-data/interface-region-imaging-spectrograph>`__ |
+        `PyPI <https://pypi.org/project/interface-region-imaging-spectrograph/>`__
+
+    .. grid-item-card:: `sdo`
+
+        Downloads and analyzes images from the NASA Solar Dynamics Observatory
+        (SDO).
+
+        +++
+        `GitHub <https://github.com/sun-data/solar-dynamics-observatory>`__ |
+        `PyPI <https://pypi.org/project/solar-dynamics-observatory/>`__
+
+    .. grid-item-card:: `peaklets`
+
+        Decomposes a 1D positive signal using only positive basis functions.
+        Developed with Charles Kankelborg.
+
+        +++
+        `GitHub <https://github.com/Kankelborg-Group/peaklets>`__ |
+        `PyPI <https://pypi.org/project/peaklets/>`__
