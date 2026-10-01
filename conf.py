@@ -164,6 +164,8 @@ html_theme_options = {
 # -- Extensions --------------------------------------------------------------
 
 ogp_site_url = html_baseurl
+ogp_image = "_images/headshot.jpg"
+ogp_image_alt = "Roy T. Smart"
 ogp_social_cards = {"enable": False}
 
 sitemap_url_scheme = "{link}"
