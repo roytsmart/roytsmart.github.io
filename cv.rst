@@ -1,6 +1,8 @@
 CV
 ==
 
+Email: roytsmart@gmail.com
+
 Education
 ---------
 

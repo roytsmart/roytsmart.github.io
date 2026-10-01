@@ -153,6 +153,11 @@ html_theme_options = {
             "url": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Smart%2C%20R%22%20author%3A%22Kankelborg%22&sort=date%20desc",
             "icon": "fa-solid fa-book-open",
         },
+        {
+            "name": "Email",
+            "url": "mailto:roytsmart@gmail.com",
+            "icon": "fa-solid fa-envelope",
+        },
     ],
 }
 
