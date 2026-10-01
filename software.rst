@@ -20,7 +20,8 @@ Foundations
 
         +++
         `GitHub <https://github.com/sun-data/named-arrays>`__ |
-        `PyPI <https://pypi.org/project/named-arrays/>`__
+        `PyPI <https://pypi.org/project/named-arrays/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23072813>`__
 
     .. grid-item-card:: `regridding`
 
@@ -61,7 +62,8 @@ Optics and instruments
 
         +++
         `GitHub <https://github.com/sun-data/optika>`__ |
-        `PyPI <https://pypi.org/project/optika/>`__
+        `PyPI <https://pypi.org/project/optika/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23074621>`__
 
     .. grid-item-card:: `ctis`
 
