@@ -144,6 +144,11 @@ html_theme_options = {
             "icon": "fa-brands fa-orcid",
         },
         {
+            "name": "Google Scholar",
+            "url": "https://scholar.google.com/citations?user=nfT75NUAAAAJ",
+            "icon": "fa-brands fa-google-scholar",
+        },
+        {
             "name": "NASA ADS",
             "url": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Smart%2C%20R%22%20author%3A%22Kankelborg%22&sort=date%20desc",
             "icon": "fa-solid fa-book-open",
