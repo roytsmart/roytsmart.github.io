@@ -29,7 +29,7 @@ Talks
 **Inverting ESIS Observations of the Solar Transition Region using Convolutional Neural Networks**
     Talk, IRIS-Hinode 2024 Meeting, Bozeman, Montana.
     With Charles Kankelborg and Jacob Parker.
-    (`slides <https://github.com/roytsmart/iris-hinode-meeting-2024>`__)
+    (`slides <https://roytsmart.github.io/iris-hinode-meeting-2024/>`__)
 
 2023
 ----
