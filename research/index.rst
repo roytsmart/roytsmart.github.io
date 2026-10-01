@@ -39,6 +39,18 @@ I also help plan science observations for NASA's
 `Interface Region Imaging Spectrograph <https://iris.lmsal.com>`__ (IRIS), and
 maintain `iris`, a Python package for analyzing its data.
 
+.. figure:: /images/iris-mosaic-2014-05-12.jpg
+    :target: ../_static/iris-mosaic-2014-05-12-full.jpg
+    :alt: A full-disk mosaic of the Sun in Si IV, colored by Doppler shift.
+    :class: dark-light
+
+    The full Sun in the Si IV 1394 Å line, assembled by IRIS from 1002 raster
+    steps on 2014 May 12.
+    Each pixel's spectrum is mapped to a color: hue shows the Doppler shift
+    across ±75 km/s, with blue moving toward us and red moving away, and
+    lightness shows intensity.
+    Click for the full-resolution image.
+
 .. toctree::
     :hidden:
 

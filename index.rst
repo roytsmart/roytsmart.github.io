@@ -12,7 +12,7 @@ Roy T. Smart
 
         .. image:: images/headshot.jpg
             :alt: Roy T. Smart
-            :class: sd-rounded-circle
+            :class: sd-rounded-circle dark-light
             :width: 220px
             :align: center
 

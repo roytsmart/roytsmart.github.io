@@ -122,6 +122,7 @@ html_theme = "pydata_sphinx_theme"
 html_title = "Roy T. Smart"
 html_baseurl = "https://roytsmart.github.io/"
 html_show_sourcelink = False
+html_static_path = ["_static"]
 
 # The navbar is the only navigation, so drop the left sidebar everywhere.
 html_sidebars = {"**": []}

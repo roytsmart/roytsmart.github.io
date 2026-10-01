@@ -8,6 +8,7 @@ ESIS launched from White Sands Missile Range on September 30, 2019, and is
 planned to launch again in 2027.
 
 .. figure:: /images/esis-rail.avif
+    :class: dark-light
 
     The ESIS instrument on the rail preparing for launch.
     Image credit: NSROC and Catharine Bunn.
