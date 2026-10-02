@@ -35,6 +35,9 @@ fps = 8
 crf = 28
 """The x264 quality setting."""
 
+colormap = "gray"
+"""The matplotlib colormap the images are drawn in."""
+
 static = pathlib.Path(__file__).parent.parent / "_static"
 
 level_1 = esis.flights.f1.data.level_1()
@@ -60,7 +63,7 @@ data = data[:, y0:y1, x0:x1]
 
 floor = np.percentile(data[:, ~inside[y0:y1, x0:x1]], 50)
 ceiling = np.percentile(data, 99.7)
-cmap = matplotlib.colormaps["inferno"]
+cmap = matplotlib.colormaps[colormap]
 height = round(width * data.shape[1] / data.shape[2] / 2) * 2
 
 
