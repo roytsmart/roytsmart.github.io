@@ -56,6 +56,8 @@ intersphinx_mapping = {
     "peaklets": ("https://peaklets.readthedocs.io/en/stable/", None),
     "furst": ("https://furst-optics.readthedocs.io/en/stable/", None),
     "sdo": ("https://sdo.readthedocs.io/en/stable/", None),
+    "utu": ("https://utu.readthedocs.io/en/stable/", None),
+    "aastex": ("https://aastex.readthedocs.io/en/stable/", None),
 }
 
 # -- Publications ------------------------------------------------------------

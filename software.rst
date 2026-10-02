@@ -124,6 +124,17 @@ Solar data
         `GitHub <https://github.com/sun-data/solar-dynamics-observatory>`__ |
         `PyPI <https://pypi.org/project/solar-dynamics-observatory/>`__
 
+    .. grid-item-card:: `utu`
+
+        Solar physics utilities built on `named_arrays`: spectral lines and
+        their contribution functions from the CHIANTI atomic database, and the
+        Sun's differential rotation.
+
+        +++
+        `GitHub <https://github.com/sun-data/utu>`__ |
+        `PyPI <https://pypi.org/project/utu/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23107787>`__
+
     .. grid-item-card:: `peaklets`
 
         Decomposes a 1D positive signal using only positive basis functions.
@@ -132,3 +143,29 @@ Solar data
         +++
         `GitHub <https://github.com/Kankelborg-Group/peaklets>`__ |
         `PyPI <https://pypi.org/project/peaklets/>`__
+
+Other tools
+-----------
+
+.. grid:: 1 1 2 2
+    :gutter: 3
+
+    .. grid-item-card:: `aastex`
+
+        Writes AAS journal articles as Python programs, so the numbers quoted
+        in the text are computed by the same code that makes the figures.
+
+        +++
+        `GitHub <https://github.com/sun-data/aastex>`__ |
+        `PyPI <https://pypi.org/project/aastex/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23108302>`__
+
+    .. grid-item-card:: Solar movie viewer
+
+        A web app, built for phones first, that turns SDO images from
+        Helioviewer into a movie you can scrub, zoom, and hold still against
+        the Sun's rotation.
+
+        +++
+        `Live site <https://sun-data.github.io/solar-movie-viewer/>`__ |
+        `GitHub <https://github.com/sun-data/solar-movie-viewer>`__
