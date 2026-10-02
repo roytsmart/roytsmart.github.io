@@ -38,7 +38,7 @@ crf = 28
 colormap = "gray"
 """The matplotlib colormap the images are drawn in."""
 
-vmax = 99.9
+vmax = 99.99
 """The percentile of the images drawn at full brightness."""
 
 static = pathlib.Path(__file__).parent.parent / "_static"
