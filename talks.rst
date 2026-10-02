@@ -45,6 +45,7 @@ Talks
 
 **A Convolutional Neural Network for Inverting Observations from the EUV Snapshot Imaging Spectrograph**
     Colloquium, Lockheed Martin Solar and Astrophysics Laboratory, August 18.
+    (`slides <https://roytsmart.github.io/lmsal-colloquium-2022/>`__)
 
 2020
 ----
