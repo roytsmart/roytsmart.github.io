@@ -29,6 +29,27 @@ Roy T. Smart
         Along the way I write open-source Python packages for modeling optical
         systems and analyzing solar data.
 
+.. grid:: 1 2 2 3
+    :gutter: 3
+
+    .. grid-item-card:: Research
+        :link: research/index
+        :link-type: doc
+
+        Sounding-rocket spectrographs that observe the Sun in ultraviolet light.
+
+    .. grid-item-card:: Software
+        :link: software
+        :link-type: doc
+
+        Open-source Python packages for optics, arrays, and solar data.
+
+    .. grid-item-card:: Publications
+        :link: publications
+        :link-type: doc
+
+        Papers and conference proceedings.
+
 .. raw:: html
 
     <figure class="align-default" id="esis-movie">
@@ -58,27 +79,6 @@ Roy T. Smart
         document.querySelector("#esis-movie video").pause();
       }
     </script>
-
-.. grid:: 1 2 2 3
-    :gutter: 3
-
-    .. grid-item-card:: Research
-        :link: research/index
-        :link-type: doc
-
-        Sounding-rocket spectrographs that observe the Sun in ultraviolet light.
-
-    .. grid-item-card:: Software
-        :link: software
-        :link-type: doc
-
-        Open-source Python packages for optics, arrays, and solar data.
-
-    .. grid-item-card:: Publications
-        :link: publications
-        :link-type: doc
-
-        Papers and conference proceedings.
 
 .. toctree::
     :hidden:

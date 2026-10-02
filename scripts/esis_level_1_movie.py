@@ -38,6 +38,9 @@ crf = 28
 colormap = "gray"
 """The matplotlib colormap the images are drawn in."""
 
+vmax = 99.9
+"""The percentile of the images drawn at full brightness."""
+
 static = pathlib.Path(__file__).parent.parent / "_static"
 
 level_1 = esis.flights.f1.data.level_1()
@@ -62,7 +65,7 @@ x0, x1 = max(cols[0] - margin, 0), min(cols[-1] + margin, data.shape[2])
 data = data[:, y0:y1, x0:x1]
 
 floor = np.percentile(data[:, ~inside[y0:y1, x0:x1]], 50)
-ceiling = np.percentile(data, 99.7)
+ceiling = np.percentile(data, vmax)
 cmap = matplotlib.colormaps[colormap]
 height = round(width * data.shape[1] / data.shape[2] / 2) * 2
 
