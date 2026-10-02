@@ -56,7 +56,8 @@ Talks
     (`abstract <https://ui.adsabs.harvard.edu/abs/2020AGUFMSH0480003S>`__)
 
 **Analyzing ESIS Observations Using Convolutional Neural Networks**
-    Colloquium, NASA Marshall Space Flight Center.
+    Colloquium, NASA Marshall Space Flight Center, March.
+    (`slides <https://roytsmart.github.io/msfc-colloquium-2020/>`__)
 
 2019
 ----
