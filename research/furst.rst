@@ -21,8 +21,8 @@ onto a single grating, made by Carl Zeiss Jena, and a single CCD.
 My role
 -------
 
-I worked on the optical design of FURST, and wrote software to model it,
-analyze its tolerances, and operate its camera.
+I worked on the optical design of FURST, and wrote software to model it and
+analyze its tolerances.
 My package `furst` models the instrument both as designed and as built, using
 measurements of the flight grating, coatings, and filter to predict its
 effective area and spectral resolution.
