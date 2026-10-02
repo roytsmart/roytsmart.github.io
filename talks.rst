@@ -38,6 +38,7 @@ Talks
     Talk, International Space Science Institute team meeting,
     *Why Do We Still Have a "Coronal Heating Problem"?*
     With Charles Kankelborg and Jacob Parker.
+    (`slides <https://roytsmart.github.io/issi-coronal-heating-2023/>`__)
 
 2022
 ----
