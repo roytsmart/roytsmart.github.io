@@ -88,6 +88,6 @@ Talks
 ----
 
 **Preliminary Results of the MOSES II 2015 Flight**
-    AAS Solar Physics Division Meeting.
+    Poster, AAS Solar Physics Division Meeting, Boulder, Colorado.
     With Hans Courrier and Charles Kankelborg.
-    (`abstract <https://ui.adsabs.harvard.edu/abs/2016SPD....4730901S>`__)
+    (`poster <https://roytsmart.github.io/spd-2016/smart-spd-2016-poster.pdf>`__, `abstract <https://ui.adsabs.harvard.edu/abs/2016SPD....4730901S>`__)
