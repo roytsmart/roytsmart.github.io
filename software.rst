@@ -80,7 +80,8 @@ Optics and instruments
 
         +++
         `GitHub <https://github.com/sun-data/ctis>`__ |
-        `PyPI <https://pypi.org/project/ctis/>`__
+        `PyPI <https://pypi.org/project/ctis/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23086313>`__
 
     .. grid-item-card:: `esis`
 
@@ -107,7 +108,8 @@ Optics and instruments
 
         +++
         `GitHub <https://github.com/sun-data/msfc-ccd>`__ |
-        `PyPI <https://pypi.org/project/msfc-ccd/>`__
+        `PyPI <https://pypi.org/project/msfc-ccd/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23090943>`__
 
 Solar data
 ----------
@@ -122,7 +124,8 @@ Solar data
 
         +++
         `GitHub <https://github.com/sun-data/interface-region-imaging-spectrograph>`__ |
-        `PyPI <https://pypi.org/project/interface-region-imaging-spectrograph/>`__
+        `PyPI <https://pypi.org/project/interface-region-imaging-spectrograph/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23104892>`__
 
     .. grid-item-card:: `sdo`
 
@@ -131,7 +134,8 @@ Solar data
 
         +++
         `GitHub <https://github.com/sun-data/solar-dynamics-observatory>`__ |
-        `PyPI <https://pypi.org/project/solar-dynamics-observatory/>`__
+        `PyPI <https://pypi.org/project/solar-dynamics-observatory/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23093186>`__
 
     .. grid-item-card:: `utu`
 
