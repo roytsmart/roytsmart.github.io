@@ -42,13 +42,12 @@ My role
 -------
 
 I have worked on ESIS since I started graduate school in 2015.
-I helped design its optical system and prepared the instrument for its first
-flight, including the analysis used to focus and align the optics.
-I developed its optical model, the pipeline that calibrates the flight images,
-and software for inverting them.
+I prepared the instrument for its first flight, including the analysis used
+to focus and align the optics, and I developed its optical model, the pipeline
+that calibrates the flight images, and software for inverting them.
 My NASA Earth and Space Science Fellowship funded work on using neural
 networks to invert ESIS images.
-I also designed the optical system for the second flight, which adds more
+I also helped design the optical system for the second flight, which adds more
 channels and new spectral lines.
 
 I'm currently writing the ESIS instrument paper
