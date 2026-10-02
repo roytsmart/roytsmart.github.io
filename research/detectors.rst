@@ -35,7 +35,9 @@ I use these tracks to measure the depth-dependent charge-diffusion kernel of
 all four IRIS CCDs in orbit, a method that needs no laboratory access and
 applies to any back-illuminated sensor in space.
 
-*In preparation* (`source <https://github.com/roytsmart/ccd-diffusion-paper>`__).
+*In preparation*
+(`draft <https://roytsmart.github.io/ccd-diffusion-paper/ccd-diffusion.pdf>`__,
+`source <https://github.com/roytsmart/ccd-diffusion-paper>`__).
 
 Calibrating flight cameras
 --------------------------

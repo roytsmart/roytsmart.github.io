@@ -34,3 +34,4 @@ In preparation
 - **Roy T. Smart** and Charles C. Kankelborg.
   Measuring the Charge-diffusion Kernel of a Back-illuminated CCD in Orbit from
   Glancing Particle Tracks.
+  (`draft <https://roytsmart.github.io/ccd-diffusion-paper/ccd-diffusion.pdf>`__)
