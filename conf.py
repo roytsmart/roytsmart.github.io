@@ -1,5 +1,6 @@
 """Sphinx configuration for https://roytsmart.github.io."""
 
+import docutils.nodes
 import pybtex.plugin
 import pybtex.style.formatting.unsrt
 import pybtex.style.names.plain
@@ -173,3 +174,28 @@ ogp_social_cards = {"enable": False}
 
 sitemap_url_scheme = "{link}"
 sitemap_excludes = ["search.html", "genindex.html"]
+
+# -- Package links -----------------------------------------------------------
+
+_landing_pages = {package: root for package, (root, _) in intersphinx_mapping.items()}
+"""
+The landing page of each package's documentation, read before Sphinx rewrites
+`intersphinx_mapping` in place into its own form.
+"""
+
+
+def _link_packages_to_landing_pages(app, doctree: docutils.nodes.document, docname: str) -> None:
+    """
+    Send a reference to a package's top-level module, such as `named_arrays`,
+    to the landing page of the package's documentation rather than to the
+    module's API reference.
+    """
+    for reference in doctree.findall(docutils.nodes.reference):
+        uri = reference.get("refuri", "")
+        for package, root in _landing_pages.items():
+            if uri.startswith(root) and uri.endswith(f"#module-{package}"):
+                reference["refuri"] = root
+
+
+def setup(app) -> None:
+    app.connect("doctree-resolved", _link_packages_to_landing_pages)
