@@ -29,6 +29,36 @@ Roy T. Smart
         Along the way I write open-source Python packages for modeling optical
         systems and analyzing solar data.
 
+.. raw:: html
+
+    <figure class="align-default" id="esis-movie">
+      <video autoplay muted loop playsinline preload="auto"
+             poster="_static/esis-level-1-poster.jpg"
+             title="Click to pause or play"
+             aria-label="A movie of the solar transition region recorded by ESIS: two bright octagons of speckled emission flickering side by side, with a faint third octagon between them."
+             style="display: block; width: 100%; height: auto; border-radius: 0.5rem; cursor: pointer;"
+             onclick="this.paused ? this.play() : this.pause()">
+        <source src="_static/esis-level-1.mp4" type="video/mp4">
+      </video>
+      <figcaption>
+        <p><span class="caption-text">
+          The solar transition region seen by
+          <a href="research/esis.html">ESIS</a> during its 2019 flight.
+          ESIS looks at the Sun through an octagonal field stop, and its
+          grating spreads each bright spectral line into its own copy of the
+          octagon: He&nbsp;I 58.4&nbsp;nm and O&nbsp;V 63.0&nbsp;nm, with faint
+          Mg&nbsp;X between them.
+          Three minutes of exposures, 10&nbsp;s apart, play here at 20 times
+          real speed.
+        </span></p>
+      </figcaption>
+    </figure>
+    <script>
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.querySelector("#esis-movie video").pause();
+      }
+    </script>
+
 .. grid:: 1 2 2 3
     :gutter: 3
 
