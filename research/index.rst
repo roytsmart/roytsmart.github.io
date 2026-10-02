@@ -18,6 +18,13 @@ instruments.
         measures plasma flows across its whole field of view in a single
         exposure.
 
+    .. grid-item-card:: MOSES
+        :link: moses
+        :link-type: doc
+
+        The Multi-Order Solar EUV Spectrograph: the forerunner of ESIS, which
+        images the transition region in three spectral orders at once.
+
     .. grid-item-card:: FURST
         :link: furst
         :link-type: doc
@@ -55,5 +62,6 @@ maintain `iris`, a Python package for analyzing its data.
     :hidden:
 
     esis
+    moses
     furst
     detectors

@@ -21,9 +21,10 @@ the target, so different parts of the image are observed at different times.
 That is a problem for the transition region, where small explosive events
 evolve in seconds.
 
-ESIS is a computed tomography imaging spectrograph (CTIS): its cameras look at
-the Sun through gratings mounted at different azimuths, so every camera records
-a dispersed image of the whole field of view in a single exposure.
+Like :doc:`MOSES <moses>` before it, ESIS is a computed tomography imaging
+spectrograph (CTIS): its cameras look at the Sun through gratings mounted at
+different azimuths, so every camera records a dispersed image of the whole
+field of view in a single exposure.
 Inverting the overlapping projections recovers a spatial-spectral cube, which
 measures the Doppler shift of the O V 629.7 Å line everywhere in the field of
 view at once, without ever scanning a slit.
