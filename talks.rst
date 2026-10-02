@@ -51,7 +51,7 @@ Talks
 ----
 
 **Convolutional Neural Networks for Tomographic Imaging Spectroscopy of the Solar Atmosphere**
-    AGU Fall Meeting.
+    Poster, AGU Fall Meeting, December 16.
     With Charles Kankelborg and Jacob Parker.
     (`abstract <https://ui.adsabs.harvard.edu/abs/2020AGUFMSH0480003S>`__)
 
@@ -63,10 +63,10 @@ Talks
 ----
 
 **A Neural Network-based Data Analysis Technique for the EUV Snapshot Imaging Spectrograph**
-    Poster, AGU Fall Meeting.
+    Poster, AGU Fall Meeting, San Francisco, December 11.
     With Charles Kankelborg, Jacob Parker, Hans Courrier, Amy Winebarger,
     Ken Kobayashi, and Laurel Rachmeler.
-    (`abstract <https://ui.adsabs.harvard.edu/abs/2019AGUFMSH31C3321S>`__)
+    (`poster <https://roytsmart.github.io/agu-2019/smart-agu-2019-poster.pdf>`__, `abstract <https://ui.adsabs.harvard.edu/abs/2019AGUFMSH31C3321S>`__)
 
 2018
 ----
@@ -74,15 +74,15 @@ Talks
 **Machine Learning Techniques for Computed Tomography Imaging Spectroscopy of the Solar Atmosphere**
     Talk, AGU Fall Meeting, Washington, D.C., December 11.
     With Charles Kankelborg.
-    (`abstract <https://ui.adsabs.harvard.edu/abs/2018AGUFMSH23A..05S>`__)
+    (`slides <https://roytsmart.github.io/agu-2018/>`__, `abstract <https://ui.adsabs.harvard.edu/abs/2018AGUFMSH23A..05S>`__)
 
 2017
 ----
 
 **Measuring Plasma Flows in Transition Region Loops Using the MOSES Instrument**
-    Poster, AAS Solar Physics Division Meeting.
+    Poster, AAS Solar Physics Division Meeting, Portland, Oregon.
     With Charles Kankelborg, Nick Bonham, and Hans Courrier.
-    (`abstract <https://ui.adsabs.harvard.edu/abs/2017SPD....4810610S>`__)
+    (`poster <https://roytsmart.github.io/spd-2017/smart-spd-2017-poster.pdf>`__, `abstract <https://ui.adsabs.harvard.edu/abs/2017SPD....4810610S>`__)
 
 2016
 ----
