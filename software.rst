@@ -50,6 +50,15 @@ Foundations
         `PyPI <https://pypi.org/project/colorsynth/>`__ |
         `DOI <https://doi.org/10.5281/zenodo.23066030>`__
 
+    .. grid-item-card:: `peaklets`
+
+        Decomposes a 1D positive signal using only positive basis functions.
+        Developed with Charles Kankelborg.
+
+        +++
+        `GitHub <https://github.com/Kankelborg-Group/peaklets>`__ |
+        `PyPI <https://pypi.org/project/peaklets/>`__
+
 Optics and instruments
 ----------------------
 
@@ -134,15 +143,6 @@ Solar data
         `GitHub <https://github.com/sun-data/utu>`__ |
         `PyPI <https://pypi.org/project/utu/>`__ |
         `DOI <https://doi.org/10.5281/zenodo.23107787>`__
-
-    .. grid-item-card:: `peaklets`
-
-        Decomposes a 1D positive signal using only positive basis functions.
-        Developed with Charles Kankelborg.
-
-        +++
-        `GitHub <https://github.com/Kankelborg-Group/peaklets>`__ |
-        `PyPI <https://pypi.org/project/peaklets/>`__
 
 Other tools
 -----------
