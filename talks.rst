@@ -15,13 +15,13 @@ Talks
 **The Noise Measured by Back-Illuminated Silicon Sensors Modeled Using Partial Charge Collection**
     Talk, OpTeC 2025, October 9.
     With Charles Kankelborg and Jacob Parker.
-    (`slides <https://roytsmart.github.io/optec-2025/S02%2006%20Smart%20Roy%20The%20Noise%20Measured.pdf>`__)
+    (`slides <https://roytsmart.github.io/optec-2025/>`__, `PDF <https://roytsmart.github.io/optec-2025/S02%2006%20Smart%20Roy%20The%20Noise%20Measured.pdf>`__)
 
 **The Noise Measured by Back-illuminated Silicon Sensors**
     Talk, 246th Meeting of the American Astronomical Society, Solar Physics
     Division, June 9.
     With Charles Kankelborg and Jacob Parker.
-    (`slides <https://roytsmart.github.io/spd-2025/spd_2025_smart_ccd_noise.pdf>`__)
+    (`slides <https://roytsmart.github.io/spd-2025/>`__, `PDF <https://roytsmart.github.io/spd-2025/spd_2025_smart_ccd_noise.pdf>`__)
 
 2024
 ----
