@@ -54,7 +54,6 @@ intersphinx_mapping = {
     ),
     "esis": ("https://esis-mission.github.io/esis/", None),
     "ctis": ("https://ctis.readthedocs.io/en/stable/", None),
-    "peaklets": ("https://peaklets.readthedocs.io/en/stable/", None),
     "furst": ("https://furst-optics.readthedocs.io/en/stable/", None),
     "sdo": ("https://sdo.readthedocs.io/en/stable/", None),
     "utu": ("https://utu.readthedocs.io/en/stable/", None),
