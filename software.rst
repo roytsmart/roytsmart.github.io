@@ -181,3 +181,13 @@ For fun
         +++
         `Live site <https://roytsmart.github.io/snowflakes/>`__ |
         `GitHub <https://github.com/roytsmart/snowflakes>`__
+
+    .. grid-item-card:: MHD Playground
+
+        Stir a magnetized fluid with your finger and watch its field lines
+        bend, spring back as Alfvén waves, and reconnect: two-dimensional
+        magnetohydrodynamics on your phone's GPU.
+
+        +++
+        `Live site <https://roytsmart.github.io/mhd-playground/>`__ |
+        `GitHub <https://github.com/roytsmart/mhd-playground>`__
