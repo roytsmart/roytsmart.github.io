@@ -81,7 +81,8 @@ Optics and instruments
 
         +++
         `GitHub <https://github.com/esis-mission/esis>`__ |
-        `PyPI <https://pypi.org/project/euv-snapshot-imaging-spectrograph/>`__
+        `PyPI <https://pypi.org/project/euv-snapshot-imaging-spectrograph/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23113153>`__
 
     .. grid-item-card:: `furst`
 
@@ -90,7 +91,8 @@ Optics and instruments
 
         +++
         `GitHub <https://github.com/Kankelborg-Group/furst-optics>`__ |
-        `PyPI <https://pypi.org/project/furst-optics/>`__
+        `PyPI <https://pypi.org/project/furst-optics/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23116748>`__
 
     .. grid-item-card:: `msfc_ccd`
 
