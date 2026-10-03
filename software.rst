@@ -164,3 +164,14 @@ Other tools
         +++
         `Live site <https://sun-data.github.io/solar-movie-viewer/>`__ |
         `GitHub <https://github.com/sun-data/solar-movie-viewer>`__
+
+    .. grid-item-card:: Snowflakes
+
+        A web app that grows a snow crystal on your phone with the model of
+        Gravner and Griffeath (2008), in Rust compiled to WebAssembly, from a
+        Python package with Numba and NumPy versions that match it bit for
+        bit.
+
+        +++
+        `Live site <https://roytsmart.github.io/snowflakes/>`__ |
+        `GitHub <https://github.com/roytsmart/snowflakes>`__
