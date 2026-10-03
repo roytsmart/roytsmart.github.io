@@ -165,6 +165,12 @@ Other tools
         `Live site <https://sun-data.github.io/solar-movie-viewer/>`__ |
         `GitHub <https://github.com/sun-data/solar-movie-viewer>`__
 
+For fun
+-------
+
+.. grid:: 1 1 2 2
+    :gutter: 3
+
     .. grid-item-card:: Snowflakes
 
         A web app that grows a snow crystal on your phone with the model of
