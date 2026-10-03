@@ -5,7 +5,7 @@ Talks
 ----
 
 **The Physical Structure and Evolution of Transition Region Explosive Events Observed with ESIS**
-    Talk, Montana State University solar physics research group.
+    Talk, Montana State University solar physics research group, September 29.
     With Charles Kankelborg and Jacob Parker.
     (`slides <https://roytsmart.github.io/solar-research-2026/>`__)
 
