@@ -43,4 +43,4 @@ Teaching and mentoring
 
 **Mentor**, ESIS undergraduate optics team
 
-**Laboratory Teaching Assistant**, PHSX 220, Montana State University, 2016
+**Laboratory Teaching Assistant**, PHSX 220, Montana State University, 2015
