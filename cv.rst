@@ -6,7 +6,7 @@ Email: roytsmart@gmail.com
 Education
 ---------
 
-**Ph.D. in Physics** (in progress), Montana State University
+**Ph.D. in Physics** (expected May 2027), Montana State University
     Advisor: Charles Kankelborg
 
 **B.S. in Physics**, Montana State University, 2015
@@ -19,14 +19,14 @@ Research experience
     Sounding-rocket ultraviolet spectrographs for solar physics, with
     Charles Kankelborg's group.
 
-**Undergraduate Research Assistant**, Montana State University, 2013 to 2015
+**Undergraduate Research Assistant**, Montana State University, 2012 to 2015
     MOSES-II sounding rocket: flight command and control software, thermal
     analysis of an optical mount, and launch support.
 
 Fellowships
 -----------
 
-**NASA Earth and Space Science Fellowship**, 2017 to 2021
+**NASA Earth and Space Science Fellowship**, 2017 to 2020
     *Neural Networks for Computed Tomography Imaging Spectroscopy of the
     Solar Atmosphere*
 
