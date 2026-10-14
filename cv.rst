@@ -3,6 +3,8 @@ CV
 
 Email: roytsmart@gmail.com
 
+Resume: `two-page PDF <https://roytsmart.github.io/resume/resume_smart.pdf>`__
+
 Education
 ---------
 
