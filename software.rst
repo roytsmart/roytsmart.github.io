@@ -130,6 +130,16 @@ Solar data
         `PyPI <https://pypi.org/project/solar-dynamics-observatory/>`__ |
         `DOI <https://doi.org/10.5281/zenodo.23093186>`__
 
+    .. grid-item-card:: `hinode`
+
+        Downloads and analyzes images from the X-Ray Telescope (XRT) on the
+        Hinode spacecraft.
+
+        +++
+        `GitHub <https://github.com/sun-data/hinode>`__ |
+        `PyPI <https://pypi.org/project/hinode/>`__ |
+        `DOI <https://doi.org/10.5281/zenodo.23249959>`__
+
     .. grid-item-card:: `utu`
 
         Solar physics utilities built on `named_arrays`: spectral lines and
