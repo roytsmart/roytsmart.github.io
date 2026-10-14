@@ -17,7 +17,7 @@ Education
 Research experience
 -------------------
 
-**Graduate Research Assistant**, Montana State University, 2015 to present
+**Graduate Research Assistant**, Montana State University, 2016 to present
     Sounding-rocket ultraviolet spectrographs for solar physics, with
     Charles Kankelborg's group.
 

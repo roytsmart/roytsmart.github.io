@@ -26,6 +26,11 @@ In preparation
   The EUV Snapshot Imaging Spectrograph.
   (`draft <https://esis-mission.github.io/esis-instrument-paper/esis-instrument.pdf>`__)
 
+- **Roy T. Smart**, Charles C. Kankelborg, Jacob D. Parker, and Dana W. Longcope.
+  Flows, Magnetic Topology, and Temperature of a Transition Region Jet Observed
+  by the EUV Snapshot Imaging Spectrograph.
+  (`draft <https://esis-mission.github.io/esis-jet-paper/esis-jet.pdf>`__)
+
 - **Roy T. Smart**, Charles C. Kankelborg, and Jacob D. Parker.
   The Noise on Ultraviolet Astronomical Images Captured by Back-illuminated
   Silicon Sensors.
@@ -35,3 +40,9 @@ In preparation
   Measuring the Charge-diffusion Kernel of a Back-illuminated CCD in Orbit from
   Glancing Particle Tracks.
   (`draft <https://roytsmart.github.io/ccd-diffusion-paper/ccd-diffusion.pdf>`__)
+
+- Jacob D. Parker, Genevieve D. Vigil, Charles C. Kankelborg, Amy R. Winebarger,
+  Will T. Barnes, **Roy T. Smart**, and Adrian N. Daw.
+  Detecting Electron Beam Heating in Active Region Moss with the Second Flight
+  of the EUV Snapshot Imaging Spectrograph.
+  (`draft <https://esis-mission.github.io/esis2-science-paper/esis2-science.pdf>`__)
