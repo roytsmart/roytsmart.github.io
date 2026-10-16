@@ -2,7 +2,7 @@ Publications
 ============
 
 My publications and conference abstracts are also listed on
-`NASA ADS <https://ui.adsabs.harvard.edu/search/q=author%3A%22Smart%2C%20R%22%20author%3A%22Kankelborg%22&sort=date%20desc>`__.
+`NASA ADS <https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-9997-5515&sort=date%20desc>`__.
 
 Refereed articles
 -----------------
