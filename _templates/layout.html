@@ -13,6 +13,8 @@
 {%- block extrahead %}
   {{ super() }}
   {%- if pagename == root_doc %}
+    {#- Proves to Google Search Console that I own the site. #}
+    <meta name="google-site-verification" content="jLcOFKhtqgigMpVz8wg_UGN6X6jgw3TQpUXQLizv1T4" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
