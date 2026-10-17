@@ -8,3 +8,30 @@
     {{ super() }}
   {%- endif %}
 {%- endblock %}
+
+{#- Tell search engines who the landing page is about, and which profiles elsewhere are the same person. #}
+{%- block extrahead %}
+  {{ super() }}
+  {%- if pagename == root_doc %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Roy T. Smart",
+        "alternateName": "Roy Smart",
+        "url": "https://roytsmart.github.io/",
+        "image": "https://roytsmart.github.io/_images/headshot.jpg",
+        "jobTitle": "PhD candidate in physics",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Montana State University"
+        },
+        "sameAs": [
+          "https://github.com/roytsmart",
+          "https://orcid.org/0000-0002-9997-5515",
+          "https://scholar.google.com/citations?user=nfT75NUAAAAJ"
+        ]
+      }
+    </script>
+  {%- endif %}
+{%- endblock %}

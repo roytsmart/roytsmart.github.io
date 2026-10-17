@@ -127,6 +127,9 @@ html_baseurl = "https://roytsmart.github.io/"
 html_show_sourcelink = False
 html_static_path = ["_static"]
 
+# Files copied to the root of the site as they are, like robots.txt.
+html_extra_path = ["extra"]
+
 # The navbar is the only navigation, so drop the left sidebar everywhere.
 html_sidebars = {"**": []}
 
